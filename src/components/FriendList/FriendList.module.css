@@ -1,0 +1,16 @@
+.friendlist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  width: 458px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.friendListItem_container {
+  border: 1px solid black;
+  border-radius: 12px;
+  flex-basis: calc((100% - 48px) / 5);
+  background-color: transparent;
+  padding: 6px;
+}

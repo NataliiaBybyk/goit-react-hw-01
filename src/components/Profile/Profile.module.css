@@ -1,0 +1,80 @@
+.profile_container {
+  width: 304px;
+  margin: 48px auto;
+  border: 2px solid black;
+  border-radius: 24px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.profile_up {
+  margin: 0;
+  border-radius: 24px 24px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 18px;
+}
+
+.profile_img {
+  width: 120px;
+  border-radius: 50%;
+  background-color: black;
+  margin: 0 auto 18px;
+  display: block;
+}
+
+.profile_name {
+  color: black;
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.profile_tag {
+  color: gray;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.profile_location {
+  font-weight: 400;
+  font-size: 18px;
+  color: gray;
+}
+
+.profile_states {
+  border-radius: 0 0 24px 24px;
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+}
+
+.profile_state {
+  flex-basis: calc((100%) / 3);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 6px;
+  color: black;
+  border-top: 2px solid gray;
+  padding: 6px;
+  background-color: rgb(231, 228, 228);
+}
+
+.profile_state:nth-child(even) {
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
+}
+
+.profile_state_title {
+  font-weight: 400;
+}
+
+.profile_state_property {
+  font-weight: 600;
+}
