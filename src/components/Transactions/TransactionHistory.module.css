@@ -1,0 +1,30 @@
+.table_cont {
+  margin-top: 35px;
+}
+.table {
+  border: 3px solid black;
+  border-radius: 5px;
+  margin: 0 auto;
+  width: 800px;
+}
+.th_page {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  background-color: #2d2d2e;
+  color: white;
+}
+.td {
+  text-align: center;
+  padding: 7px;
+  border: 1px solid black;
+}
+.tbody {
+  /* background-color: rgb(195, 225, 25); */
+  box-shadow: inset 0 -10em 4em rgb(195, 225, 25), 0 0 0 2px rgb(195, 225, 25),
+    0.3em 0.3em 1em rgb(195, 225, 25);
+}
+
+tr:nth-child(2n) {
+  background-color: #0ea2dd;
+}

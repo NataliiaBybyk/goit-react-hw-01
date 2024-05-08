@@ -1,16 +1,22 @@
-.friendlist {
+.friends_list {
+  margin-top: 50px;
+  margin-bottom: 10px;
   display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  width: 458px;
-  margin: 0 auto;
-  background-color: white;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
 }
-
-.friendListItem_container {
-  border: 1px solid black;
-  border-radius: 12px;
-  flex-basis: calc((100% - 48px) / 5);
-  background-color: transparent;
-  padding: 6px;
+.friends_list_item {
+  padding: 20px;
+  background-color: #fafafa;
+  box-shadow: 3px 3px #0ea2dd, -1em 0 0.4em rgb(195, 225, 25);
+  border-radius: 10px;
+  border: 2px solid rgb(32, 32, 33);
+  color: black;
+  width: 150px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
 }
